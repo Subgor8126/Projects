@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    min-width:400px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    border:1px solid #5f9341;
+    //box sizing is added because without it, the input field will expand and go past the screen,
+    //because on top of the 100% width, it adds 10px padding as well
+    //please research on this and try to fully understand this whole box-sizing situation.
+}
+button{
+    margin-top:5px;
+    padding:10px 20px;
+    //padding: (top and bottom)px (left and right)px;
+    background-color:#5f9341;
+    color:white;
+    border:1px solid #5f9341;
+    font-weight:bold;
+}
+
+#delete-btn{
+    background-color:white;
+    color:#5f9341;
+}
+
+ul{
+    margin-top:20px;
+    list-style-type:none;
+    padding-left:0;
+}
+li{
+    margin-top:5px;
+}
+a{
+color:#5f9341;
+
+/*
+
+if we want to specify that we only want the above styling to be applied to the links inside
+the list, type 
+
+li a {
+ color:#5f9341 
+}
+ where 'li a' specifies that we only want to target the anchor tags inside a list.
+
+*/
+
+}
